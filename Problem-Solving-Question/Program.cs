@@ -10,7 +10,7 @@ namespace Problem_Solving_Question
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World :");
+            Console.WriteLine("Problem Solving Question :");
             Console.ReadLine();
         }
     }
