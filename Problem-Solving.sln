@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissingNumberArray", "Missi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatedAndSortedArray", "RotatedAndSortedArray\RotatedAndSortedArray.csproj", "{B85D653A-2C0F-457B-AD8F-413A435AEF8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumElementSortedAndRotatedArray", "MinimumElementSortedAndRotatedArray\MinimumElementSortedAndRotatedArray.csproj", "{43A86AFA-6189-4E17-B6A3-8ED741172AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondLargestNumberInArray", "SecondLargestNumberInArray\SecondLargestNumberInArray.csproj", "{C98B4B70-F7F9-446C-9ED8-EE6366D8AA4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{B85D653A-2C0F-457B-AD8F-413A435AEF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85D653A-2C0F-457B-AD8F-413A435AEF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B85D653A-2C0F-457B-AD8F-413A435AEF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A86AFA-6189-4E17-B6A3-8ED741172AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A86AFA-6189-4E17-B6A3-8ED741172AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A86AFA-6189-4E17-B6A3-8ED741172AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A86AFA-6189-4E17-B6A3-8ED741172AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98B4B70-F7F9-446C-9ED8-EE6366D8AA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98B4B70-F7F9-446C-9ED8-EE6366D8AA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98B4B70-F7F9-446C-9ED8-EE6366D8AA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98B4B70-F7F9-446C-9ED8-EE6366D8AA4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

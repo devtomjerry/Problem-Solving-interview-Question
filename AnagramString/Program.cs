@@ -15,14 +15,11 @@ namespace anagram
                 if (firstString.Length != secondString.Length)
                 {
                     return false;
-                }
-                //Convert string to character array  
+                } 
                 char[] firstCharsArray = firstString.ToLower().ToCharArray();
                 char[] secondCharsArray = secondString.ToLower().ToCharArray();
-                //Sort array  
                 Array.Sort(firstCharsArray);
                 Array.Sort(secondCharsArray);
-                //Check each character and position.  
                 for (int i = 0; i < firstCharsArray.Length; i++)
                 {
                     if (firstCharsArray[i].ToString() != secondCharsArray[i].ToString())
@@ -35,14 +32,12 @@ namespace anagram
         }
         public static void Main(string[] args)
         {
-            string firstString, secondString;
-            //Gets words from user.  
+            string firstString, secondString; 
             Console.WriteLine("Enter first string");
             firstString = Console.ReadLine();
             Console.WriteLine("Enter second string");
             secondString = Console.ReadLine();
 
-            //Check if words are anagram  
             if (Anagram.areAnagram(firstString, secondString) == true)
             {
                 Console.WriteLine("Both string are anagram string.");
